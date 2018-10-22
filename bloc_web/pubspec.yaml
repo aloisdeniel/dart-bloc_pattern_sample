@@ -1,0 +1,13 @@
+name: bloc_web
+description: An example web project
+version: 0.1.0
+environment:
+  sdk: '>=2.0.0 <3.0.0' 
+dependencies:
+  react: ^4.5.0
+  react_async: ^0.1.0
+  bloc_shared:
+    path: ../bloc_shared
+dev_dependencies:
+  build_runner: ">=0.8.10 <2.0.0" 
+  build_web_compilers: ">=0.3.6 <0.5.0"
